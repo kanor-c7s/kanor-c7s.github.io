@@ -74,8 +74,14 @@ body {
     color: darkred;
 }
 
+
 .persName {
-    color: blue;
+    display: inline-block;
+    text-indent: 0em;
+}
+
+.persName::first-letter {
+    color: royalblue;
 }
 
 .placeName {
