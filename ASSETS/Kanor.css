@@ -25,7 +25,6 @@
 }
 
 p {
-    text-indent: 2em;
     text-align: justify;
     height: fit-content;
     font-size: 23px;
@@ -54,7 +53,7 @@ body {
     font-size: 20px;
     text-align: justify;
     margin-right: 13em;
-    margin-left: 7em;
+    margin-left: 13em;
     margin-top: 2em;
     font-family: 'EB Garamond';
 }
@@ -65,8 +64,20 @@ body {
 }
 
 .pb {
+    display: inline-block;
+    text-indent: 0em;
     font-size: 15px;
     color: darkred;
+}
+
+.pbfloat {
+    position: absolute;
+    left: 7em;
+}
+
+.cbfloat {
+    position: absolute;
+    left: 5em;
 }
 
 .url {
@@ -74,18 +85,35 @@ body {
     color: darkred;
 }
 
+a:link {
+    color: #c00
+} /* unvisited links       */
+a:visited {
+    color: #0c0
+} /* visited links         */
+a:hover,
+a:focus {
+    color: #00c
+} /* user hovers, or focus */
+a:active {
+    color: #ccc
+} /* active links          */
+
+
 
 .persName {
+    text-indent: 0em;
+}
+
+
+.placeName {
     display: inline-block;
     text-indent: 0em;
 }
 
-.persName::first-letter {
-    color: royalblue;
-}
-
 .placeName {
-    color: green;
+
+
 }
 
 .rs {
@@ -114,9 +142,13 @@ body {
 
 .lettrine {
     font-variant: small-caps;
-    font-size: 30px;
     font-feature-settings: 'kern', 'swsh';
     color: orange;
+    text-shadow: 3px 3px 3px silver;
+    line-height: 80%;
+    margin: -.1em 0px;
+    padding-right: .1em
+
 
 }
 
@@ -186,4 +218,8 @@ body {
 
 .title {
     font-size: 50px
+}
+
+.section {
+    margin-top: 70px;
 }
