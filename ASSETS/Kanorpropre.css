@@ -26,10 +26,10 @@
 
 p {
     text-align: justify;
-    height: fit-content;
     font-size: 23px;
     word-spacing: 2px;
     line-height: 1.4;
+    margin-top: 40px;
 }
 
 .rubricated {
@@ -221,5 +221,5 @@ line-height: 1.1;
 }
 
 .section {
-    margin-top: 70px;
+    
 }

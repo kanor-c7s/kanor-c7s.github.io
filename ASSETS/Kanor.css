@@ -26,7 +26,7 @@
 
 p {
     text-align: justify;
-    height: fit-content;
+    margin-top: 40px;
     font-size: 23px;
     word-spacing: 2px;
     line-height: 1.4;
@@ -221,5 +221,5 @@ a:active {
 }
 
 .section {
-    margin-top: 70px;
+    
 }
