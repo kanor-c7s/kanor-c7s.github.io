@@ -24,6 +24,10 @@
     src: local('Open Sans Bold'), url(https://brick.freetls.fastly.net/fonts/opensans/700.woff) format('woff');
 }
 
+.divergences {
+    font-family: 'Arial narrow';
+}
+
 p {
     text-align: justify;
     margin-top: 40px;
@@ -104,18 +108,16 @@ a:active {
 
 .persName {
     text-indent: 0em;
+    color:blue;
 }
 
 
 .placeName {
     display: inline-block;
     text-indent: 0em;
+    color:violet;
 }
 
-.placeName {
-
-
-}
 
 .rs {
     color: navy;

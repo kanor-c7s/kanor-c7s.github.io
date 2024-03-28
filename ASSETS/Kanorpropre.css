@@ -43,6 +43,13 @@ p {
     font-feature-settings: 'kern', 'liga', 'dlig', 'hlig', 'cswh';
     font-synthesis: weight style;
 }
+
+.divergences {
+    font-family: 'Arial narrow';
+}
+
+
+
 h2 {
     color: darkred;
     font-size: 15px;
@@ -103,7 +110,7 @@ a:active {
 
 
 .persName {
-    text-indent: 0em;
+
 }
 
 
