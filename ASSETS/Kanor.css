@@ -156,10 +156,11 @@ a:active {
 }
 
 .num {
-    font-variant: small-caps;
+      text-transform: uppercase;
 }
 
-.exp {
+.exp {    
+    text-transform: none;
     font-variant: small-caps;
 }
 
@@ -189,7 +190,7 @@ a:active {
 .tooltip .tooltip-content {
     font-size: 18px;
     visibility: hidden;
-    width: 350px;
+    width: 450px;
     background-color: #f9f9f9;
     color: #333;
     text-align: center;
