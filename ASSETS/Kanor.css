@@ -108,14 +108,13 @@ a:active {
 
 .persName {
     text-indent: 0em;
-    color: blue;
 }
 
 
 .placeName {
     display: inline-block;
     text-indent: 0em;
-    color: violet;
+  
 }
 
 
@@ -214,7 +213,7 @@ a:active {
     font-weight: bold;
 }
 
-.acertain_mid {
+.acertain_medium {
     color: orange;
     font-weight: bold;
 }
