@@ -125,12 +125,10 @@ a:active {
 }
 
 .place {
-    color: olive;
     cursor: pointer;
 }
 
 .people {
-    color: pink;
 }
 
 .supplied {
