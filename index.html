@@ -9,9 +9,16 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
         }
         h1 {
             color: #333;
+        }
+        .content {
+            flex: 1;
         }
         .link-container {
             margin-top: 20px;
@@ -23,15 +30,55 @@
             color: #007bff;
             text-decoration: none;
         }
+        .cc-license {
+            display: inline-block;
+            vertical-align: text-bottom;
+            height: 22px !important;
+            margin-left: 3px;
+        }
+        .cc-section {
+            background-color: #f1f1f1;
+            color: grey;
+            padding: 10px;
+            line-height: 1.5;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+        }
+        .cc-section a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .cc-section a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Édition numérique de Kanor</h1>
-    <div>Ce site présente les différentes versions de l'édition numérique du roman <hi>Kanor et ses freres</hi>.</div>
-    <div class="link-container">
-        <a class="link" href="./kanor.html">Kanor avec apparat complet</a>
-        <a class="link" href="./kanorpropre.html">Kanor sans apparat</a>
+    <div class="content">
+        <h1>Édition XML-TEI de<br>l'<em>Histoire de Kanor et de ses freres</em></h1>
+        <div>Ce site présente différentes strates de données de l'édition numérique en cours de l'<em>Histoire de Kanor et de ses freres</em>.<br>C'est le titre retenu jusqu'à présent pour désigner la version C du <em>Roman de Kanor</em> qui se lit sans le manuscrit français BnF. 1446</div>
+        <div class="link-container">
+            <a class="link" href="./kanor.html">Version avec gestes d'édition complet, apparat et notes</a>
+            <a class="link" href="./kanorpropre.html">Version sans gestes d'édition ni apparat mais notes</a>
+        </div>
+    </div>
+    <div class="cc-section">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            <a property="dct:title" rel="cc:attributionURL" href="https://kanor-c7s.github.io/">Cette transcription électronique en XML-TEI du roman «Li Histoire de Kanor et ses freres», ms. fr. BnF 1446</a><br>
+            par <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.unige.ch/c7s/equipe">Florian-Pierre Zanardi</a><br>
+            est sous licence 
+            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
+                Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+                <br>
+                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+            </a>
+        </p>
     </div>
 </body>
 </html>
-
