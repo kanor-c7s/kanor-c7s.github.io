@@ -109,25 +109,19 @@ a:active {
 
 
 
-/* PersName */
 .persName {
-border-bottom: 1px dotted;
-cursor: pointer;
-}
 
-.persName:hover {
-cursor: pointer;
 }
 
 
-/* PersName */
 .placeName {
-border-bottom: 1px dotted;
-cursor: pointer;
+    display: inline-block;
+    text-indent: 0em;
 }
 
-.placeName:hover {
-cursor: pointer;
+.placeName {
+
+
 }
 
 .rs {
@@ -190,40 +184,33 @@ cursor: pointer;
     cursor: pointer;
 }
 
-/* Tooltip Base Styles */
 .tooltip {
-position: relative;
-opacity: 1;
+    position: relative;
+    opacity: 1;
 }
 
-.tooltip-content {
-display: none;
-font-size: 18px;
-width: 550px;
-background-color: #f9f9f9;
-color: #333;
-text-align: center;
-border: 1px solid #ccc;
-border-radius: 4px;
-padding: 5px;
-position: absolute;
-z-index: 9999;
-bottom: 125%;
-left: 50%;
-transform: translateX(-50%);
-opacity: 0;
-transition: opacity 0.3s;
+.tooltip .tooltip-content {
+    font-size: 18px;
+    visibility: hidden;
+    width: 550px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 9999;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
-
-.tooltip-content.active {
-display: block;
-opacity: 1;
-}
-
 
 .tooltip:hover .tooltip-content {
-visibility: visible;
-opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .acertain {
