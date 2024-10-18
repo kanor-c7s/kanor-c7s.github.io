@@ -24,11 +24,13 @@
             margin-top: 20px;
         }
         .link {
-            display: block;
+            display: inline-block;
             margin-bottom: 10px;
             font-size: 18px;
             color: #007bff;
             text-decoration: none;
+            max-width: 90%; /* Ajoutez cette ligne pour limiter la largeur des liens */
+            white-space: nowrap; /* Pour éviter que le texte ne se casse en lignes multiples */
         }
         .cc-license {
             display: inline-block;
@@ -63,23 +65,4 @@
         <div class="link-container">
             <a class="link" href="./kanor.html">Version avec gestes d'édition complets, apparat et notes</a>
             <a class="link" href="./kanorpropre.html">Version sans gestes d'édition, ni apparat et peu de notes</a>
-            <a class="link" href="https://github.com/kanor-c7s/kanor/blob/main/TEI/jns.47.jns8386.c7s-fro7.xml">Fichier source .xml</a>
-        </div>
-    </div>
-    <div class="cc-section">
-        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-            <a property="dct:title" rel="cc:attributionURL" href="https://kanor-c7s.github.io/">Cette transcription électronique en XML-TEI du roman «Li Histoire de Kanor et ses freres», ms. fr. BnF 1446</a><br>
-            par <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.unige.ch/c7s/equipe">Florian-Pierre Zanardi</a><br>
-            est sous licence 
-            <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
-                Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
-                <br>
-                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
-                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
-                <img class="cc-license" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
-            </a>
-        </p>
-    </div>
-</body>
-</html>
+            <a class="link" href="https://github.com/kanor-c7s/kanor/blob/main/TEI/jns.47.jns8386.c
